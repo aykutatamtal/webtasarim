@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol type="A">
+        <li >RESİM DÜZENLEME
+            <ol><li>TEMEL KAVRAMLAR
+                <ul><li>Pixel</li>
+                    <li>Çözünürlük</li>
+                </ul>
+            </li>
+                <li>GÖRÜNTÜ FORMATLARI
+                    <ul><li>JPG</li>
+                        <li>GİF</li>
+                    </ul>
+                </li>    </ol>
+        </li>
+        <li>ARAÇLAR PANELİ</li>
+    </ol>
+
+
+
+
+    <ul type="circle">
+        <li>Ağ işletmenliği</li>
+        <ol type="1">
+            <li>Ağ temelleri</ol>
+                <li>Web Programıclığı</li>
+                <ol type="a" start="3">
+                    <li>Web Tasarım Editörü</li>
+                    <ul type="square">
+                        <li>FrontPage</li>
+                    </ul>
+
+                </ol> </ol>
+
+                <table border="3" style="background-color: aqua;border-color: red;"  >
+                    <thead>
+                      <tr>
+                        <th colspan="3" style="background-color: rgb(41, 174, 227);"><h3>Atatürk Teknik ve Endüstri Meslek Lisesi</h3></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td rowspan="2">Bilişim teknolojileri Alanı</td>
+                        <td>Web Prg Dalı</td>
+                        <td>Veri Tabanı Prg Dalı</td>
+                      </tr>
+                      <tr>
+                        <td>Ağ İşletmenliği Dalı</td>
+                        <td>Teknik Servis Dalı</td>
+                      </tr>
+                    </tbody>
+                    </table>
+        
+            
+        
+    
+
+</body>
+</html>
