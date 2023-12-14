@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table tr td{
+            border: 1px;
+            background-color: rgb(255, 255, 0);
+            color: rgb(0, 8, 247);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14pt;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <form  action="" method="POST">
+    <table>
+        <tr >
+            <td style="background-color: red; color:black" colspan="2">Kullanıcı Bilgileri</td>
+
+        </tr>
+        <tr>
+            
+            <td>
+                Ad:
+            </td>
+            <td>
+                <input type="text" name="ad" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Soyad:
+            </td>
+            <td>
+                <input type="text" name="soyad">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Cinsiyet:
+            </td>
+            <td>
+                <input type="radio" name="secim" value="1">ERKEK
+                <input type="radio" name="secim" value="2" checked="on">KADIN
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Doğum Yeri:
+            </td>
+            <td>
+                <select name="dogum_yer" size="1" >
+                    <option>İzmir</option>
+                    <option>Ankara</option>
+                    <option>Antalya</option>
+                    <option>İstanbul</option>
+                    <option>Bursa</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Doğum Tarihi:
+            </td>
+            <td>
+                <select name="gun" size="1" >
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <select name="ay" size="1" >
+                    <option>ocak</option>
+                    <option>subat</option>
+                    <option>mart</option>
+                    <option>nisan</option>
+                    <option>mayıs</option>
+                </select>
+                <select name="yil" size="1" >
+                    <option>1980</option>
+                    <option>1981</option>
+                    <option>1982</option>
+                    <option>1983</option>
+                    <option>1984</option>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Gönder">
+            </td>
+            <td>
+                <input type="reset" value="temizle">
+            </td>
+        </tr>
+    </table>
+</form>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <form  action="" method="POST">
+        Ad: <input type="text" name="ad" ><br>
+        Soyad:<input type="text" name="soyad"><br>
+        Cinsiyet: <input type="radio" name="secim" value="1">ERKEK
+        <input type="radio" name="secim" value="2" checked="on">KADIN<br>
+        Doğum Yeri:<select name="dogum_yer" size="1" >
+            <option>İzmir</option>
+            <option>Ankara</option>
+            <option>Antalya</option>
+            <option>İstanbul</option>
+            <option>Bursa</option>
+        </select><br>
+        Doğum Tarihi: <select name="gun" size="1" >
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <select name="ay" size="1" >
+            <option>ocak</option>
+            <option>subat</option>
+            <option>mart</option>
+            <option>nisan</option>
+            <option>mayıs</option>
+        </select>
+        <select name="yil" size="1" >
+            <option>1980</option>
+            <option>1981</option>
+            <option>1982</option>
+            <option>1983</option>
+            <option>1984</option>
+        </select><br>
+        <input type="submit" value="Gönder">
+        <input type="reset" value="temizle">
+    </form>
+</body>
+</html>
