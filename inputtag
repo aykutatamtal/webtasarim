@@ -1,0 +1,10 @@
+<input type=”text” /> tek satırlık veri giriş alanı tanımlar.
+<input type=”password” /> şifre girişi alanı tanımlar.
+<input type=”submit” /> form verilerini sunucuya göndermek için düğme-buton tanımlar.
+<input type=”reset” /> tıklandığında tüm değerleri varsayılan yapan sıfırlama düğmesi-butonu tanımlar.
+<input type=”radio” /> seçim kutusu tanımlar.Bundan dolayı checked özelliğini sadece bir seçme kutusunda kullanın.
+<input type=”checkbox” /> onay kutusu tanımlar.
+<input type=”button” /> düğme-buton tanımlar.
+<input type=”number” /> sayı girişi tanımlar.Sayı giriş aralığı min ve max özelliği ile ayarlanabilir.
+<input type=”color” /> renk giriş alanı tanımlar.
+<input type="email">
